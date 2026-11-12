@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">屏幕直尺</string>
+    <string name="app_tagline">临时测量 · 毫米刻度</string>
+    <string name="calibration_title">校准直尺</string>
+    <string name="calibration_subtitle">屏幕尺寸和系统缩放都会影响刻度。用实物校验一次，之后打开即用。</string>
+
+    <string name="mode_horizontal">横向</string>
+    <string name="mode_vertical">纵向</string>
+    <string name="marker_a">A</string>
+    <string name="marker_b">B</string>
+    <string name="marker_label">测量点</string>
+    <string name="reset">重置</string>
+    <string name="nudge_label">微调</string>
+    <string name="unit_mm">mm</string>
+    <string name="unit_cm">cm</string>
+    <string name="reading_hint">A → B 的距离</string>
+    <string name="reading_full_fmt">A → B 的距离 · %1$s in</string>
+    <string name="distance_default">0.0</string>
+    <string name="nudge_minus_1">-1</string>
+    <string name="nudge_minus_01">-0.1</string>
+    <string name="nudge_plus_01">+0.1</string>
+    <string name="nudge_plus_1">+1</string>
+    <string name="calibration_method">校准方式</string>
+    <string name="saved">已保存</string>
+    <string name="status_uncalibrated">系统参数 · 建议校验</string>
+    <string name="status_system">系统参数</string>
+    <string name="status_reference_fmt">已校准 · %1$s</string>
+    <string name="status_screen">已校准 · 屏幕尺寸</string>
+    <string name="scale_fmt">1 mm ≈ %1$s px</string>
+
+    <string name="calibration_system_title">使用系统屏幕参数</string>
+    <string name="calibration_system_desc">无需操作，直接读取系统上报的物理像素密度。部分机型或换屏后可能有轻微偏差。</string>
+    <string name="calibration_reference_title">用实物校准（推荐）</string>
+    <string name="calibration_reference_desc">把实物贴在屏幕上，拖动绿色圆点，让标尺与实物等长。</string>
+    <string name="calibration_screen_title">输入屏幕显示区域尺寸</string>
+    <string name="calibration_screen_desc">按手机竖直方向，填写实际显示区域（不含边框）的宽和高。参数可在官网规格中查到。</string>
+
+    <string name="reference_hint_fmt">把%1$s（%2$s mm）盖在标尺上，让左右边缘分别对齐两条绿色竖线；也可拖动圆点微调</string>
+    <string name="preset_card">银行卡短边</string>
+    <string name="preset_coin">1 元硬币</string>
+    <string name="reference_adjust_hint">还可以用下面的按钮逐像素微调</string>
+    <string name="minus_one_px">− 1 px</string>
+    <string name="plus_one_px">+ 1 px</string>
+
+    <string name="screen_width_mm">屏幕宽度（mm）</string>
+    <string name="screen_height_mm">屏幕高度（mm）</string>
+    <string name="screen_width_hint">例如 68.5</string>
+    <string name="screen_height_hint">例如 148.0</string>
+    <string name="screen_estimate_hint">当前系统参数估算：%1$s × %2$s mm，可直接修正。</string>
+    <string name="screen_invalid">请输入有效的屏幕尺寸（宽 30–200 mm，高 50–400 mm）</string>
+
+    <string name="calibration_note">校准结果只保存在本机。换设备、调整系统显示大小或更换屏幕后，请重新校准。</string>
+    <string name="save_and_apply">保存并应用</string>
+    <string name="close">关闭</string>
+    <string name="system_detail_fmt">系统上报：xdpi %1$s / ydpi %2$s\n换算结果：1 mm ≈ %3$s px</string>
+    <string name="reference_scale_fmt">当前标尺：1 mm ≈ %1$s px</string>
+    <string name="reference_too_wide">标尺已到屏幕边缘，请向左拖动圆点缩小标尺</string>
+</resources>
